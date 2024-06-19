@@ -36,21 +36,15 @@ h1{
     font-size: 35px;
     color:white;
     position:absolute; 
-    left: 75%;
+    left: 50%;
     bottom: 44%;
     margin: 10px 0 -5%;
     transform:translateX(-50%);
     top: 46%;
     width: 80%;
+    text-align: center;
 }
 
-/*.affect{
-    text-shadow: 
-        /*0 0 5px #fff,*/ 
-        /* 0 0 10px #fff,
-        0 0 10px #fff,  
-        0 0 10px #fff;
-}*/
 
 .author{
     color:white;
