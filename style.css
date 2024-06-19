@@ -21,13 +21,13 @@ body {
 h1{
     color:white;
     font-family:"Bebas";
-    font-size: 330px;
+    font-size: 200px;
     position: fixed;
     left: 50%;
     bottom: 41%;
     margin:0;;
     transform:translateX(-50%);
-    top: 20%;
+    top: 30%;
 }
 
 .description{
@@ -39,7 +39,7 @@ h1{
     bottom: 44%;
     margin: 10px 0 -5%;
     transform:translateX(-50%);
-    top: 50%;
+    top: 49%;
     width: 80%;
 }
 
