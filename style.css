@@ -21,26 +21,26 @@ body {
 h1{
     color:white;
     font-family:"Bebas";
-    font-size: 200px;
+    font-size: 10vw;
     position: absolute;
     left: 50%;
     bottom: 41%;
     margin:0;;
     transform:translateX(-50%);
-    top: 30%;
+    top: 27vh;
     text-align: center;
 }
 
 .description{
     font-family: Bebas;
-    font-size: 35px;
+    font-size: 1.4vw;
     color:white;
     position:absolute; 
     left: 50%;
     bottom: 44%;
-    margin: 10px 0 -5%;
+    margin: 0;
     transform:translateX(-50%);
-    top: 46%;
+    top: 48vh;
     width: 80%;
     text-align: center;
 }
