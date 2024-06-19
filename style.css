@@ -1,0 +1,87 @@
+@font-face{
+    font-family:"Bebas";
+    src:url(BebasNeue-Regular.ttf);
+}
+
+body {
+    background: black;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; 
+}
+
+h1{
+    color:white;
+    font-family:"Bebas";
+    font-size: 370px;
+    position: fixed;
+    left: 28%;
+    bottom: 41%;
+    margin:0;
+}
+
+.description{
+    font-family: Bebas;
+    font-size: 35px;
+    color:white;
+    position:fixed; 
+    left: 35%;
+    bottom: 44%;
+    margin: 10px 0 -5%;
+}
+
+/*.affect{
+    text-shadow: 
+        /*0 0 5px #fff,*/ 
+        /* 0 0 10px #fff,
+        0 0 10px #fff,  
+        0 0 10px #fff;
+}*/
+
+.author{
+    color:white;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    left:45%;
+    top:91%;
+    font-size:20px;
+    font-family:"Bebas";
+
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    font-family:"Bebas";
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    padding: 5px 40px;
+}
+
+ul li a{
+    display: block; 
+    padding: 5px 40px;
+    color:white;
+    text-align: center;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+
+nav ul li a:hover {
+    background: white;
+    color: black;
+    opacity: 0.5;
+}
