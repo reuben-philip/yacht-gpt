@@ -22,7 +22,7 @@ h1{
     color:white;
     font-family:"Bebas";
     font-size: 200px;
-    position: fixed;
+    position: absolute;
     left: 50%;
     bottom: 41%;
     margin:0;;
@@ -34,7 +34,7 @@ h1{
     font-family: Bebas;
     font-size: 35px;
     color:white;
-    position:fixed; 
+    position:absolute; 
     left: 75%;
     bottom: 44%;
     margin: 10px 0 -5%;
