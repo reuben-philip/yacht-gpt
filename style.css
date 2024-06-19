@@ -21,9 +21,9 @@ body {
 h1{
     color:white;
     font-family:"Bebas";
-    font-size: 370px;
+    font-size: 330px;
     position: fixed;
-    left: 28%;
+    left: 23%;
     bottom: 41%;
     margin:0;
 }
@@ -33,7 +33,7 @@ h1{
     font-size: 35px;
     color:white;
     position:fixed; 
-    left: 35%;
+    left: 30%;
     bottom: 44%;
     margin: 10px 0 -5%;
 }
