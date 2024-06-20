@@ -34,12 +34,12 @@ h1{
 
 nav {
     position: fixed;
-    top: 0;
+    top: 7vh;
     width: 100%;
     background-color: black;
     display: flex; 
     justify-content: center;
-    /*z-index: 500;*/
+    align-items: center;
 }
 
 .description{
