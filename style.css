@@ -10,12 +10,13 @@ body {
     margin: 0;
 }
 
-.header-container {
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     text-align: center; 
+    transition: opacity 0.5s ease-out;
 }
 
 h1{
@@ -31,6 +32,14 @@ h1{
     text-align: center;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+}
+
 .description{
     font-family: Bebas;
     font-size: 1.4vw;
@@ -44,6 +53,7 @@ h1{
     width: 80%;
     text-align: center;
 }
+
 
 
 .author{
@@ -62,6 +72,8 @@ ul{
     list-style: none;
     text-align: center;
     font-family:"Bebas";
+    position: fixed;
+    left: 44vh;
 }
 
 ul li{
@@ -84,4 +96,11 @@ nav ul li a:hover {
     background: white;
     color: black;
     opacity: 0.5;
+}
+
+.input{
+    margin-top: 300vh; 
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 50px;
 }
