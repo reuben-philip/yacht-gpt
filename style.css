@@ -47,8 +47,6 @@ nav {
     background-color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
 }
 
 .description{
@@ -81,19 +79,21 @@ nav {
 
 ul{
     list-style: none;
-    text-align: center;
     font-family:"Bebas";
     position: fixed;
+    flex-direction: row;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 ul li{
     display: inline-block;
     position: relative;
-    padding: 2px 35px;
+    padding: 2px 20px;
     flex-direction: row;
+    margin: 0 20px;
 }
 
 ul li a{
@@ -101,7 +101,6 @@ ul li a{
     padding: 2px 35px;
     color:white;
     text-align: center;
-    text-decoration:none;
     font-size: 20px;
     flex-direction: row;
 }
